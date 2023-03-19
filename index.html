@@ -1,40 +1,59 @@
 # jikediwuzu.github.io
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>diiwuzuDocument</title>
-</head>
-<body>
-<form align="center" action="file:///E:/code/practice1.html" method="get">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		
+		
+		<main>
+		    <section id="about-me">
+		        <h2>关于第五组</h2>
+		        <p>大家好，我们热爱写代码，并喜欢从中获取乐趣。我喜欢学习新技能，探索新的编程语言和框架。</p>
+		        <p></p>
+		    </section>
+		    
+		    <section id="my-skills">
+		        <h2>我们共同的技能</h2>
+		        <ul>
+		            <li>HTML/CSS</li>
+		            <li>JavaScript</li>
+		            <li>PHP</li>
+		            <li>MySQL</li>
+		            <li>Bootstrap</li>
+		            <li>React</li>
+		        </ul>
+		    </section>
+		    
+		    <section id="my-projects">
+		        <h2>我的项目</h2>
+		        <ul>
+		            <li><a href="#">项目1</a></li>
+		            <li><a href="#">项目2</a></li>
+		            <li><a href="#">项目3</a></li>
+		        </ul>
+		    </section>
+		    
+		    <section id="contact-me">
+		        <h2>信息</h2>
+		        <form>
+		            <label for="name">姓名：</label>
+		            <input type="text" id="name" name="name"><br>
+		            <label for="email">邮箱：</label>
+		            <input type="email" id="email" name="email"><br>
+		            <label for="message">留言：</label>
+		            <textarea id="message" name="message"></textarea><br>
+		            <input type="submit" value="发送">
+		        </form>
+		    </section>
+		</main>
+		
+		<footer>
+		    <p>&copy; 2021 John. All rights reserved.</p>
+		</footer>
 
-<p>	用户：<input type="text" value="请输入您的账号"/> </p>
-<p> 密码：<input type="password"/> </p>
-<p> 性别:<input type="radio" name="sex"/>男 
-        <input type="radio" name="sex"/>女
-</p>
-<p>
-      爱好：
-<input type="checkbox" name="hobby" value="打篮球"/>打篮球   
-<input type="checkbox" name="hobby" value="踢足球"/>踢足球
-<input type="checkbox" name="hobby" value="游泳" />游泳
-<input type="checkbox" name="hobby" value="爬山" />爬山
-</p>
-
-<p>
-城市:
-		<select name="city">
-		    <option>--请选择城市--</option>
-			<option>重庆</option>
-			<option>西安</option>
-			<option>杭州</option>
-		</select>
-</p>
-
-  <p>  <input type="submit" value="提交"/>
-       <input type="reset" value="重置"/>
-  </p>
-</form>
-</body>
+	</body>
 </html>
