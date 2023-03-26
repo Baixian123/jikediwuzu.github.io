@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body {
+	background-image: url(45.jpg);
+	background-size: 100% 100%;
+	font-family: "Microsoft YaHei UI";
+	font-size: 16px;
+	line-height: 25px;
+	color: #ffd800;
+}
+
+.nav {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #738CAA;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.main {
+
+	color: #000;
+}
+
+
+a {
+	font-size: 14px;
+	font-family: "Microsoft YaHei UI";
+}
+
+	a:link {
+		color: #333;
+		text-decoration: none;
+	}
+
+	a:visited {
+		text-decoration: none;
+		color: #333;
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: #FFF;
+	}
+
+	a:active {
+		text-decoration: none;
+		color: #333;
+	}
+
+.title {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #200F15;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #200F15;
+	padding-left: 10px;
+	color: #AD5A5A;
+}
